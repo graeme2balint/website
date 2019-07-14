@@ -1,0 +1,124 @@
+body {
+  font-family: garamond;
+}
+
+.col-lg-3 {
+	text-align: center;
+}
+
+.row.no-gutters {
+	width:90%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/*.container{
+	margin: 50px auto;
+	width: 60%;
+	text-align: left;
+	border: 1px solid #E4E4E4;
+	padding-top: 10px;
+}*/
+
+.container {
+    position: relative;
+    margin: 50px auto;
+    width: 60%;
+   /* overflow: hidden;*/
+   /* border-radius: 4px;*/
+}
+
+.sidebar {
+    position: absolute;
+    top: 165px;
+    left: 40px;
+    width: 20%;
+    height: 1600px;
+    text-align: center;
+/*    border: 1px solid black;*/
+   /* padding: 15px 15px 10000px;*/
+/*    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;*/
+}
+
+/*.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background: black;
+    float: left;
+    position: absolute;
+    top: 147px;
+    left: 23px;
+}
+
+.line {
+  width: 2px;
+  height: 50px;
+  background: black;
+  position: absolute;
+  top: 160px;
+  left: 27px;
+  float: left;
+}*/
+
+.languages {
+  color: grey;
+}
+
+h4 {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black; 
+  padding-bottom: 2px; 
+  padding-top: 2px;
+  font-variant: small-caps;
+  font-family: arial;
+}
+
+.section {
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.header {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.wrapped {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 3px;
+}
+
+.boom {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#pic {
+  height: auto;
+  width: 70%;
+}
+
+#description{
+  width: 70%;
+  margin: 15px auto;
+}
+
+button {
+  width: 170px;
+  height: 50px;
+  margin-left: 700px;
+  background: red;
+  margin-bottom: 10px;
+}
+
+
+
+
+
