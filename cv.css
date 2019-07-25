@@ -1,6 +1,6 @@
-body {
-  font-family: garamond;
-}
+/*body {
+  
+}*/
 
 .col-lg-3 {
 	text-align: center;
@@ -22,6 +22,7 @@ body {
 }*/
 
 .container {
+    font-family: garamond;
     position: relative;
     margin: 50px auto;
     width: 60%;
