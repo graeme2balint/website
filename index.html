@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="test.css">
-		<script src="https://kit.fontawesome.com/8784ed177e.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<title>Mobile optimization test</title>
-	</head>
-	<body>
-			
-			<nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
-				  <a class="navbar-brand" href="index.html">GB</a>
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://kit.fontawesome.com/8784ed177e.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Graeme Balint</title>
+</head>
+<body>
 
-				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				    <ul class="navbar-nav ml-auto">
-				       <li class="nav-item active">
-				        <a class="nav-link" href="cv.html">CV </a>
-				      </li>
-				        <li class="nav-item active">
-				        <a class="nav-link" href="portfolio.html">Portfolio </a>
-				      </li>
-				  </ul>
-			</nav>
-	
+	<nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+		  <a class="navbar-brand" href="index.html">GB</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		       <li class="nav-item active">
+		        <a class="nav-link" href="cv.html">CV </a>
+		      </li>
+		        <li class="nav-item active">
+		        <a class="nav-link" href="portfolio.html">Portfolio </a>
+		      </li>
+	</nav>
+
+	<div id="header">
+		<h1>Graeme Balint</h1>
+		<h3>Aspiring front-end developer</h3>
+	</div>
+
 	<div class="container">
 
-		<div class="left-header">
-			<img id="pic-one" src="IMG_1200.jpg">
-			<p id="pic-one-bio">Sicily, Italy - summer 2017</p>
+		<div id="homepage-pic" class="left-header">
+			<img id="me" src="IMG_1200.jpg">
+			<p id="pic-location">Sicily, Italy - summer 2017</p>
 		</div>
 
-		<div class="right-header">
+		<div id="homepage-details" class="right-header">
 			<h3>A little about me</h3>
 			<p class="content">Hi, I'm Graeme. I graduated from McGill University with a Bachelors in Electrical Engineering. I grew up on <a href= "https://en.wikipedia.org/wiki/Wolfe_Island_(Ontario)" target="_blank">Wolfe Island</a> - about a 20 minute ferry ride from Kingston, Ontario - and then came to Montreal in 2013. I am always eager to solve interesting and engaging challenges.</p>
-			<p class="content">In my spare time, I enjoy...</p>
+			<p>In my spare time, I enjoy...</p>
 			<div class="sub-left">
 				<ul class="left-list">
 					<li>hockey <i class="fas fa-hockey-puck wrapper"></i> </li>
@@ -49,7 +53,7 @@
 			<div class="sub-right">
 				<ul class="right-list">
 					<li>swimming <i class="fas fa-swimmer wrapper"></i></li>
-					<li>movies <i class="fas fa-film wrapper"></i></li>
+					<li>rom-coms and pyschlogical thrillers <i class="fas fa-film wrapper"></i></li>
 					<li>to-do lists  <i class="fas fa-list-ul wrapper"></i></li>
 					<li>sudoku  <i class="fas fa-puzzle-piece wrapper"></i></li>
 				</ul>
@@ -63,7 +67,6 @@
 			<p class="content">I am hungry for an engaging position in a small office environment that fosters a culture of care, respect and amazing learning opportunities.</p>
 		</div>
 
-
 		<div id="tech-background">
 			<h3>Technical background</h3>
 			<p class="content">I completed engineering with good academic standing. The rigor of engineering demands a strong work ethic, perserverance and dedication - but the most valuable part is the toolkit I now possess. My expertise include:</p>
@@ -71,34 +74,57 @@
 				<p>Technical Skills</p>
 				<div id="skill-container">
 					<ul>
-						<li><i class="fab fa-java"></i></li>
-						<li><i class="fab fa-js"></i></li>
-						<li><i class="fab fa-html5"></i></li>
-						<li><i class="fab fa-css3-alt"></i></li>
-						<li><i class="fab fa-microsoft"></i></li> 
-						<li><i class="fab fa-github"></i></li>
+						<li>
+							<div>
+								<i class="fab fa-java"></i>
+							</div>
+						</li>
+						<li>
+							<div><i class="fab fa-js"></i></div>
+						</li>
+						<li>
+							<div><i class="fab fa-html5"></i></div>
+						</li>
+						<li>
+							<div><i class="fab fa-css3-alt"></i></div>
+						</li>
+						<li>
+							<div><i class="fab fa-microsoft"></i></div>
+						</li> 
+						<li>
+							<div><i class="fab fa-github"></i></div>
+						</li>
+						<li class="skills-icons">
+							<div><img src="project-management.png"></div>
+						</li>
+						<li class="skills-icons">
+							<div><img src="tex-shop.png"> </div>
+						</li>
+						<li class="skills-icons">
+							<div><img src="sql-symbol.png"></div>
+						</li>
 					</ul>
 				</div>
 			</div>
-		</div>
 
-		<div id="soft-skills">
+			<div id="soft-skills">
 				<p>Soft Skills</p>
 				<div class="sub-left">
 					<ul id="soft-skills-left" class="left-list">
 						<li>Teamwork</li> 
-						<li>Time management</li>
-						<li>Interpersonal & communication skills</li>
+						<li>Time & project management</li>
+						<li>Excellent interpersonal and communication skills</li>
 					</ul>
 				</div>
 				<div class="sub-right">
 					<ul id="soft-skills-right" class="right-list">
-						<li>Problem-solving</li>
+						<li>Excellent analytical and creative-problem solving abilities</li>
 						<li>Work well under pressure </li>
 						<li>Learn how to learn </li>
 					</ul>
 				</div>
-			</div>	
+			</div>
+		</div>	
 
 		<div id="short-objectives" class="left-section"> 
 			<h3>Short-term objectives</h3>
@@ -107,17 +133,16 @@
 
 		<div id="medium-objectives" class="right-section">
 			<h3>Medium-term objectives</h3>
-			<p class="content">I'm a people person. I'd like my daily work routine to involve a good balance of coding and  interaction with people.</p>
+			<p class="content">I'm a people person<!--  who likes to plan -->. I'd like my daily work routine to involve a good balance of coding and  interaction with people.</p>
 		</div>
 
 		<div id="ref" class="right-section">
 			<p><div>SQL icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div></p>
 		</div>
 
-	</div>	 	
+	</div>
 
-	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-	<script type="text/javascript" src ="bootstrap.js"></script>
-
-	</body>
-	</html>	
+		<script type="text/javascript" src="index.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</body>
+</html>
