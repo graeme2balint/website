@@ -1,236 +1,510 @@
-h1 {
-	padding-top: 50px; 
-	padding-bottom: 15px;
-	/*font-family: Didot;*/
-	font-size: 80px;
+@media screen and (min-width: 401px) and (max-width: 760px){
+	.left-header {
+		width: 90%;
+		height: 200px;
+		/*border: 1px solid black;*/
+		/*float: left;*/
+		margin: 50px auto 25px auto;
+	}
+
+	.right-header {
+		/*position: absolute;
+		top: 225px;
+		left: 10px;*/
+		width: 90%;
+		height: 325px;
+		/*border: 1px solid black;*/
+		/*float: left;*/
+		margin: 25px auto 25px auto;
+		/*text-align: center;*/
+	}
+
+	#pic-one-bio {
+		margin-top: 0;
+		/*margin-left: 75px;*/
+		/*margin-left: 1%;*/
+		font-size: 12px;
+	}
+
+	#pic-one {
+		width: 60.06%;
+		height: auto;
+		padding: 2px;
+		border: 2px solid #DCECF2;
+		margin: 0 19.7% 5px 19.7%;
+		border-radius: 5%;
+	}
+
+	p {
+			font-size: 12px;
+			text-align: center;
+		}
+	h3 {
+			font-size: 20px;
+			text-align: center;
+		}
+
+	li {
+			font-size: 12px;
+			text-align: left;
+		}
+
+	.wrapper {
+			padding-left: 5px;
+		}
+
+	.content {
+		width: 80%;
+		margin: 20px auto;
+		}
+
+	.sub-left {
+		width: 50%;
+		height: 130px;
+		/*border: 1px solid black;*/
+		float: left;
+	}
+
+	.sub-right {
+		width: 50%;
+		height: 130px;
+		/*border: 1px solid black;*/
+		float: right;
+	}
+
+	.left-list {
+		text-align: left;
+		margin-left: 10%;
+	}
+	.right-list {
+		text-align: left;
+		margin-left: 5%;
+	}
+
+	#skill-container ul li {
+		list-style: none;
+		text-align: left;
+		float: left;
+		display: inline;
+		margin: 10px 15% 10px 15%;
+		font-size: 35px;
+	}
+
+	#tech-background {
+		height: 400px;
+	}
+
+	#professional-experience {
+		height: 350px;
+	/*	margin-top: 100px;
+		margin-bottom: 30px;*/
+	}
+
+	#soft-skills {
+		margin-top: 50px;
+		height: 100px;
+	}
+
+	.left-section {
+		width: 90%;
+		height: 150px;
+		/*float: left;*/
+		margin-top: 100px;
+	}
+
+	.right-section {
+		width: 90%;
+		height: 210px;
+		/*float: right;*/
+		margin-top: 50px;
+		margin-bottom: 10px;
+	}
+
+	#ref {
+		margin-top: 50px;
+		font-size: 10px;
+	}
+	/*h1 {
+		padding-top: 50px; 
+		padding-bottom: 15px;
+		font-family: Didot;
+		font-size: 80px;
+	}
+
+	h3 {
+		font-family: Didot;
+		font-weight: 700;
+	}
+
+	h6 {
+		text-align: left;
+		margin-left: 100px;
+	}
+	.container{
+		margin: 50px auto;
+		width: 90%;
+		text-align: center;
+	}
+	#pic-one-bio {
+		margin-top: 0;
+	}
+	.content {
+		width: 80%;
+		margin: 20px auto;
+	}
+
+	.left-header {
+		width: 35%;
+		height: 320px;
+		float: left;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.right-header {
+		width: 65%;
+		height: 320px;
+		float: right;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	#pic-one {
+		width: 350px;
+		height: auto;
+		padding: 2px;
+		border: 2px solid #DCECF2;
+		margin-bottom: 5px;
+		margin-top: 50px;
+		border-radius: 5%;
+	}
+*/
 }
 
-h3 {
-	font-family: Didot;
-	font-weight: 700;
+@media screen and (max-width: 400px) {
+
+	.left-header {
+		width: 90%;
+		height: 175px;
+		/*border: 1px solid black;*/
+		/*float: left;*/
+		margin: 50px auto 25px auto;
+	}
+
+	.right-header {
+		/*position: absolute;
+		top: 225px;
+		left: 10px;*/
+		width: 90%;
+		height: 325px;
+		/*border: 1px solid black;*/
+		/*float: left;*/
+		margin: 25px auto 25px auto;
+		/*text-align: center;*/
+	}
+
+	#pic-one-bio {
+		margin-top: 0;
+		/*margin-left: 75px;*/
+		/*margin-left: 1%;*/
+		font-size: 12px;
+	}
+
+	#pic-one {
+		width: 60.06%;
+		height: auto;
+		padding: 2px;
+		border: 2px solid #DCECF2;
+		margin: 0 19.7% 5px 19.7%;
+		border-radius: 5%;
+	}
+
+	p {
+			font-size: 12px;
+			text-align: center;
+		}
+	h3 {
+			font-size: 20px;
+			text-align: center;
+		}
+
+	li {
+			font-size: 12px;
+			text-align: left;
+		}
+
+	.wrapper {
+			padding-left: 5px;
+		}
+
+	.content {
+		width: 80%;
+		margin: 20px auto;
+		}
+
+	.sub-left {
+		width: 50%;
+		height: 130px;
+		/*border: 1px solid black;*/
+		float: left;
+	}
+
+	.sub-right {
+		width: 50%;
+		height: 130px;
+		/*border: 1px solid black;*/
+		float: right;
+	}
+
+	.left-list {
+		text-align: left;
+		margin-left: 10%;
+	}
+	.right-list {
+		text-align: left;
+		margin-left: 5%;
+	}
+
+	#skill-container ul li {
+		list-style: none;
+		text-align: left;
+		float: left;
+		display: inline;
+		margin: 10px 15% 10px 15%;
+		font-size: 35px;
+	}
+
+	#tech-background {
+		height: 400px;
+	}
+
+	#professional-experience {
+		height: 350px;
+	/*	margin-top: 100px;
+		margin-bottom: 30px;*/
+	}
+
+	#soft-skills {
+		margin-top: 50px;
+		height: 100px;
+	}
+
+	.left-section {
+		width: 90%;
+		height: 150px;
+		/*float: left;*/
+		margin-top: 100px;
+	}
+
+	.right-section {
+		width: 90%;
+		height: 210px;
+		/*float: right;*/
+		margin-top: 50px;
+		margin-bottom: 10px;
+	}
+
+	#ref {
+		margin-top: 50px;
+		font-size: 10px;
+	}
+} 
+
+@media screen and (min-width: 1200px) {
+	h1 {
+		padding-top: 50px; 
+		padding-bottom: 15px;
+		/*font-family: Didot;*/
+		font-size: 80px;
+	}
+
+	h3 {
+		font-family: Didot;
+		font-weight: 700;
+	}
+
+
+	h6 {
+		text-align: left;
+		margin-left: 100px;
+	}
+	.container{
+		margin: 50px auto;
+		width: 90%;
+		text-align: center;
+	}
+
+	img{
+		width: 100%;
+		height: auto;
+		padding: 10px; 
+	}
+
+	.left-header {
+		width: 35%;
+		height: 320px;
+		/*border: 1px solid black;*/
+		float: left;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.right-header {
+		width: 65%;
+		height: 320px;
+		/*border: 1px solid black;*/
+		float: right;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.left-section {
+		width: 50%;
+		height: 210px;
+		float: left;
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+
+	.right-section {
+		width: 50%;
+		height: 210px;
+		float: right;
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+
+	#professional-experience {
+		height: 250px;
+		float: left;
+		margin-top: 100px;
+		margin-bottom: 30px;
+	}
+
+	#tech-background {
+		height: 100px;
+		float: left;
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+
+	#header {
+		height: 250px;
+		margin: 0 auto;
+		text-align: center;
+		width: 80%;
+		border-bottom: 1px solid black;
+		font-family: Didot;
+	}
+
+	#pic-location {
+		margin-top: 0;
+	}
+
+	.content {
+		width: 80%;
+		margin: 20px auto;
+	}
+
+	#intro {
+		text-align: left;
+		padding: 5px;
+	}
+
+
+	#me {
+		width: 350px;
+		height: auto;
+		padding: 2px;
+		border: 2px solid #DCECF2;
+		margin-bottom: 5px;
+		margin-top: 50px;
+		border-radius: 5%;
+	}
+
+
+	.left-list {
+		text-align: left;
+		margin-left: 200px;
+	}
+	.right-list {
+		text-align: left;
+		margin-left: 5px;
+	}
+
+	.sub-left {
+		width: 50%;
+		height: 130px;
+		/*border: 1px solid black;*/
+		float: left;
+	}
+
+	.sub-right {
+		width: 50%;
+		height: 130px;
+		/*border: 1px solid black;*/
+		float: right;
+	}
+
+	#soft-skills-left {
+		margin-left: 90px;
+		text-align: left;
+	}
+
+	#soft-skills-right {
+		padding-left: 60px;
+	}
+
+	#tech-background {
+		height: 600px;
+	}
+
+	#soft-skills {
+		margin: 50px auto 0 auto;
+		width: 75%;
+		height: 300px;
+
+	}
+
+	#skill-container ul li {
+		list-style: none;
+		text-align: left;
+		float: left;
+		display: inline;
+		margin: 10px 30px 10px 30px;
+		font-size: 40px;
+	}
+
+	#skill-container {
+		margin: 5px auto 30px auto;
+		width: 50%;
+		height: 180px;
+	}
+
+	.skills-icons {
+		width: 65px;
+		height: 65px;
+	}
+
+	#gantt {
+		width: 75px;
+		height: 75px;
+	}
+
+	.wrapper {
+		padding-left: 10px;
+	}
+
+	#objectives {
+		height: 1000px;
+		position: absolute;
+		left: ;
+		top: ; 
+	  	border: 2px solid black;
+	}
+
+	#ref {
+		margin-top: 100px;
+	}
+
 }
-
-
-h6 {
-	text-align: left;
-	margin-left: 100px;
-}
-.container{
-	margin: 50px auto;
-	width: 90%;
-	text-align: center;
-}
-
-img{
-	width: 100%;
-	height: auto;
-	padding: 10px; 
-}
-
-.left-header {
-	width: 35%;
-	height: 320px;
-	/*border: 1px solid black;*/
-	float: left;
-	margin-top: 50px;
-	margin-bottom: 100px;
-}
-
-.right-header {
-	width: 65%;
-	height: 320px;
-	/*border: 1px solid black;*/
-	float: right;
-	margin-top: 50px;
-	margin-bottom: 100px;
-}
-
-.left-section {
-	width: 50%;
-	height: 210px;
-	float: left;
-	margin-top: 100px;
-	margin-bottom: 10px;
-}
-
-.right-section {
-	width: 50%;
-	height: 210px;
-	float: right;
-	margin-top: 100px;
-	margin-bottom: 10px;
-}
-
-#professional-experience {
-	height: 250px;
-	float: left;
-	margin-top: 100px;
-	margin-bottom: 30px;
-}
-
-#tech-background {
-	height: 100px;
-	float: left;
-	margin-top: 100px;
-	margin-bottom: 10px;
-}
-
-#header {
-	height: 250px;
-	margin: 0 auto;
-/*	background-color: #05BFF1;*/
-	/*background-color: black;*/
-	/*color: white;*/
-	text-align: center;
-	width: 80%;
-	border-bottom: 1px solid black;
-	font-family: Didot;
-}
-
-#pic-location {
-	margin-top: 0;
-}
-
-/*h3 {
-	margin-top: 10px;
-}*/
-
-.content {
-	width: 80%;
-	margin: 20px auto;
-}
-
-#pics {
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#intro {
-	text-align: left;
-	padding: 5px;
-}
-
-#me {
-	width: 350px;
-	height: auto;
-	padding: 2px;
-	border: 2px solid #DCECF2;
-	margin-bottom: 5px;
-	margin-top: 50px;
-	border-radius: 5%;
-}
-
-.left-list {
-	text-align: left;
-	margin-left: 200px;
-}
-.right-list {
-	text-align: left;
-	margin-left: 5px;
-}
-
-.sub-left {
-	width: 50%;
-	height: 130px;
-	/*border: 1px solid black;*/
-	float: left;
-}
-
-.sub-right {
-	width: 50%;
-	height: 130px;
-	/*border: 1px solid black;*/
-	float: right;
-}
-
-#soft-skills-left {
-	margin-left: 90px;
-	text-align: left;
-}
-
-#soft-skills-right {
-	padding-left: 60px;
-}
-
-#tech-background {
-	height: 600px;
-}
-
-#soft-skills {
-	margin: 50px auto 0 auto;
-	width: 75%;
-	height: 300px;
-
-}
-
-#skill-container ul li {
-	list-style: none;
-	text-align: left;
-	float: left;
-	display: inline;
-	margin: 10px 30px 10px 30px;
-	font-size: 40px;
-}
-
-#skill-container {
-	margin: 5px auto 30px auto;
-	width: 50%;
-	height: 180px;
-}
-
-.skills-icons {
-	width: 65px;
-	height: 65px;
-}
-
-#gantt {
-	width: 75px;
-	height: 75px;
-}
-
-.wrapper {
-	padding-left: 10px;
-}
-
-#left-panel {
-	width: 50px;
-	background-color: #ffb116;
-	height: 1000px;
-	position: absolute;
-	border-left: 2px solid black;
-	left: 0; 
-  	top: 50px; 
-}
-
-#right-panel {
-	width: 150px;
-	background-color: #ffb116;
-	height: 1000px;
-	position: absolute;
-	right: 0; 
-  	top: 50px; 
-}
-
-#tech-skills {
-	width: 200px;
-	height: auto;
-	padding: 2px;
-	margin-bottom: 5px;
-	margin-top: 100px;
-}
-
-#objectives {
-	height: 1000px;
-	position: absolute;
-	left: ;
-	top: ; 
-  	border: 2px solid black;
-}
-
-#ref {
-	margin-top: 100px;
-}
-
-
-
-
